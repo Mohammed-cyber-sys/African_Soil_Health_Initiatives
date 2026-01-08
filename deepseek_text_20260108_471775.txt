@@ -1,0 +1,43 @@
+african-soil-health-website/
+│
+├── index.html                    # Main website file
+├── admin-login.html              # Secure admin login page
+├── admin-panel.html              # Admin control panel
+│
+├── css/
+│   ├── style.css                 # Main styles
+│   ├── admin.css                 # Admin panel styles
+│   └── responsive.css            # Responsive design
+│
+├── js/
+│   ├── main.js                   # Main website functionality
+│   ├── admin.js                  # Admin panel functionality
+│   ├── auth.js                   # Authentication system
+│   ├── chatbot.js                # AI chatbot logic
+│   ├── data-manager.js           # Data management
+│   └── security.js               # Security functions
+│
+├── data/
+│   ├── soil-data.json            # Soil information database
+│   ├── language-data.json        # Translation files
+│   ├── ai-responses.json         # AI response database
+│   └── users.json                # User data
+│
+├── images/
+│   ├── backgrounds/              # Background images
+│   ├── icons/                    # Icon sets
+│   ├── soil-issues/              # Soil issue pictures
+│   └── crops/                    # Crop images
+│
+├── uploads/                      # For user uploads (images, etc.)
+│
+├── config/
+│   ├── config.json               # Website configuration
+│   └── security-config.json      # Security settings
+│
+├── docs/
+│   ├── README.md                 # Deployment instructions
+│   ├── USER_GUIDE.md             # User guide for farmers
+│   └── ADMIN_GUIDE.md            # Admin guide for Mohammed
+│
+└── .gitignore                    # Git ignore file

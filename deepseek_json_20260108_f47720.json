@@ -1,0 +1,91 @@
+{
+  "haramaya": {
+    "name": "Haramaya District",
+    "coordinates": {
+      "lat": 9.4167,
+      "lng": 41.9667
+    },
+    "soil": {
+      "type": "Andosols, Nitisols",
+      "texture": "Sandy Clay Loam",
+      "ph": "5.8 - 6.5",
+      "organic": "Medium to High",
+      "drainage": "Good",
+      "fertility": "High"
+    },
+    "crops": ["Wheat", "Barley", "Potatoes", "Vegetables", "Onions"],
+    "issues": [
+      {
+        "id": 1,
+        "title": {
+          "en": "Soil Acidity",
+          "am": "የአፈር አሲድነት",
+          "om": "Asidii Biyyee"
+        },
+        "description": {
+          "en": "Low pH levels affecting nutrient availability for crops. Visible as stunted growth and yellowing leaves.",
+          "am": "የተመጣጠነ መጠን መቀነስ ለአታክልቶች ምግብ ንጥረ ነገሮችን ማግኘት ያሳጣል።",
+          "om": "Lakkoofsa pH gadi aanaa oomisha qonnaan bultii argachuu dadhabsiisa."
+        },
+        "recommendation": {
+          "en": "Apply agricultural lime at 2-4 tons/ha to raise pH. Use dolomitic lime for magnesium deficiency.",
+          "am": "የግብርና አትክልት አሲድነትን ለመቀነስ 2-4 ቶን/ሄክታር አትክልት ይተጉ።",
+          "om": "pH ol kaasuuf lime qonnaa 2-4 ton/ha dhiyeessaa."
+        },
+        "image": "images/soil-issues/acidity.jpg",
+        "severity": "medium"
+      }
+    ],
+    "management": [
+      {
+        "title": {
+          "en": "Crop Rotation",
+          "am": "የአታክልት ማምላቅ",
+          "om": "Marii Qonnaan Bultii"
+        },
+        "description": {
+          "en": "Rotate cereals with legumes to fix nitrogen naturally and break pest cycles.",
+          "am": "እህሎችን ከምስሎች ጋር በመተካት ናይትሮጅን ማግኘት እና ተንኮለኛ የእንስሳት ዑደት ለማቋረጥ።",
+          "om": "Cereals legumes wajjin marii godhaan nitrogen uumuufi halluu kormaa cabsuuf."
+        },
+        "icon": "fas fa-recycle"
+      }
+    ]
+  },
+  "metta": {
+    "name": "Metta District",
+    "coordinates": {
+      "lat": 9.2833,
+      "lng": 42.1333
+    },
+    "soil": {
+      "type": "Acrisols, Luvisols",
+      "texture": "Clay",
+      "ph": "5.5 - 6.2",
+      "organic": "Low",
+      "drainage": "Poor",
+      "fertility": "Low to Medium"
+    },
+    "crops": ["Teff", "Finger Millet", "Coffee", "Enset", "Maize"],
+    "issues": [],
+    "management": []
+  },
+  "dire-dawa": {
+    "name": "Dire Dawa",
+    "coordinates": {
+      "lat": 9.5892,
+      "lng": 41.8662
+    },
+    "soil": {
+      "type": "Vertisols, Cambisols",
+      "texture": "Clay Loam",
+      "ph": "7.2 - 8.1",
+      "organic": "Low to Medium",
+      "drainage": "Moderate",
+      "fertility": "Medium"
+    },
+    "crops": ["Sorghum", "Maize", "Sesame", "Cotton", "Vegetables"],
+    "issues": [],
+    "management": []
+  }
+}
