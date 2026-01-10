@@ -1,0 +1,17 @@
+# Manually override all language detection
+* linguist-detectable
+*.py linguist-language=Python
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+*.html linguist-language=HTML
+
+# Explicitly classify directories
+backend/* linguist-language=Python
+frontend/css/* linguist-language=CSS
+frontend/*.js linguist-language=JavaScript
+frontend/*.html linguist-language=HTML
+
+# Exclude any non-code files
+*.jpg linguist-vendored
+*.png linguist-vendored
+*.env linguist-vendored
